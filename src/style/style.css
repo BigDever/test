@@ -1,0 +1,86 @@
+    body {
+        margin: 0;
+    }
+   .app{
+        padding-top: 10%;
+        background-color: #f4f4f4;
+        position: absolute;
+        min-width: 100%;
+        min-height: 100%;
+        text-align: center;
+   }
+   .comics__header {
+        height: 60px;
+        padding-bottom: 5px;
+   }
+
+   
+   .button-wrapper {
+        min-height: 35px;
+        min-width: 55px;
+        margin-left: 20px;
+        justify-content: center;
+        display: flex;
+   }
+   .comics {
+        position: relative;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border-radius: 7px;
+        background-color: #fff;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        max-width: 585px;
+   }
+   .comics__content {
+        border-bottom: 1px solid #e5e5e5;
+        border-top: 1px solid #e5e5e5;
+        padding: 15px 0px;
+        justify-content: center;
+        display: flex;
+        margin: 15px 0px;
+   }
+   h1 {
+        font-family: 'Architects Daughter', cursive;
+        margin: 0px;
+        color: #4d4d4d;
+   }
+   p {
+        font-family: 'Architects Daughter', cursive;
+        color: #4d4d4d;
+        font-size: 18px;
+        margin: 0;
+   }
+
+   .comics__description {
+        width: 75%;
+        margin: 0 auto;
+   }
+   .comics__date-text{
+        font-family: "Inter", "Helvetica Neue", "Helvetica Neue External", "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "EmojiOne Color", "Android Emoji", Arial, sans-serif;
+        font-size: 11px;
+        line-height: 20px;
+        font-weight: normal;
+        color: #939393;
+        word-break: break-word;
+   }
+   .comics__navigation {
+        display: flex;
+   }
+   .prev-comics {
+        margin: auto 10px;
+        cursor: pointer;
+   }
+   .fa {
+        color: #4d4d4d;
+        opacity: 50%;
+   }
+   .fa-angle-double-right {
+        opacity: 70%;
+   }
+   .fa-angle-double-left {
+        opacity: 70%;
+   }
+   .comics__image{
+        width: 145px;
+        height: 145px;
+    }
